@@ -1,0 +1,107 @@
+{
+    "accounts": {
+        "student": {
+            "alua": {
+                "id": 1,
+                "surname": "meiirman",
+                "bachelor": "cybersecurity",
+                "login": "alua228",
+                "password": "12345",
+                "marks": {}
+            },
+            "tt": {
+                "id": 2,
+                "surname": "tt",
+                "bachelor": "tt",
+                "login": "tt",
+                "password": "tt",
+                "marks": {}
+            },
+            "yeld": {
+                "id": 3,
+                "surname": "man",
+                "bachelor": "se",
+                "login": "yelds",
+                "password": "1245er",
+                "marks": {}
+            }
+        },
+        "teacher": {
+            "alua": {
+                "id": 2,
+                "surname": "meirman",
+                "bachelor": "math",
+                "login": "alua234",
+                "password": "fvr4f",
+                "courses": [
+                    "Math"
+                ]
+            },
+            "s": {
+                "surname": "sagyndyk",
+                "bachelor": "computer",
+                "login": "s",
+                "password": "s",
+                "courses": [
+                    "C++"
+                ]
+            },
+            "Zhalgas": {
+                "id": 3,
+                "surname": "Kalakov",
+                "bachelor": "computer",
+                "login": "kalakovzh",
+                "password": "1245emer",
+                "courses": [
+                    "Calculus"
+                ]
+            }
+        },
+        "admin": [
+            {
+                "id": 1,
+                "login": "mama",
+                "password": "12345",
+                "name:": "mama"
+            }
+        ]
+    },
+    "courses": {
+        "Math": {
+            "id": 1,
+            "san_student": "3",
+            "teacher_amount": "1",
+            "teachers": [],
+            "students": [
+                {
+                    "id": 2,
+                    "surname": "tt",
+                    "bachelor": "tt",
+                    "login": "tt",
+                    "password": "tt"
+                },
+                {
+                    "id": 3,
+                    "surname": "man",
+                    "bachelor": "se",
+                    "login": "yelds",
+                    "password": "1245er"
+                }
+            ]
+        },
+        "Calculus": {
+            "id": 2,
+            "san_student": "20",
+            "teacher_amount": "1",
+            "teachers": [],
+            "students": []
+        },
+        "C++": {
+            "id": 3,
+            "san_student": "40",
+            "teacher_amount": "1",
+            "teachers": [],
+            "students": []
+        }
+    }
+}
